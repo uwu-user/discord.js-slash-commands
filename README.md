@@ -20,7 +20,7 @@ v1.0 (2021/8/10)
 
 Screenshot:
 
-<img src= "https://raw.githubusercontent.com/uwu-user/img.png" alt="Screenshot">
+<img src= "https://raw.githubusercontent.com/uwu-user/discord.js-slash-commands/main/assets/Screenshot.png" alt="Screenshot">
 
 </div>
 </details>
@@ -65,7 +65,7 @@ module.exports = {
   global: false,
   options: null,
   async execute(client, interaction, args) {
-    await interaction.reply({ content: " ", ephemeral: true }); // Comand replay
+    await interaction.reply({ content: " ", ephemeral: true }); // Command replay
   }
 };
 ```
