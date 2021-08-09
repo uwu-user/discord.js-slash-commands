@@ -1,6 +1,7 @@
+const { MessageEmbed } = require("discord.js");
 module.exports = {
-  name: "say",
-  description: "Say command :3",
+  name: "sayembed",
+  description: "Say Embed Command :3",
   global: false,
   options: [
     {
@@ -12,6 +13,9 @@ module.exports = {
   ],
   async execute(client, interaction, args) {
     let msg = args._hoistedOptions[0].value;
-    await interaction.reply({ content: msg });
+    let Embed = new MessageEmbed()
+    .setDescription(msg);
+    await interaction.reply({ embeds: [Embed] });
+    
   }
 };
