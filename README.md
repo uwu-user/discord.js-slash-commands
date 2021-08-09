@@ -60,12 +60,12 @@ Test:
 
 ```js
 module.exports = {
-  name: " ", // command Name
-  description: " ", // command description
-  global: false,
-  options: null,
+  name: " ", // [1] command Name
+  description: " ", // [2] command description
+  global: false, // [3] Command (Guild/Global) (true = Global, flase = Guild)
+  options: null, // [4] command Options
   async execute(client, interaction, args) {
-    await interaction.reply({ content: " ", ephemeral: true }); // Command replay
+    await interaction.reply({ content: " ", ephemeral: true }); // [5] Command replay
   }
 };
 ```
