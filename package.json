@@ -1,0 +1,30 @@
+{
+  "name": "discord.js-slash-Commands",
+  "version": "1.0.0-dev",
+  "description": "Sample Slash Commands!",
+  "main": "index.js",
+  "engines": {
+    "node": "v16.6.1",
+    "npm": "7.20.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uwu-user/Discord.js-Slash-Commands.git"
+  },
+  "author": "uwu-user",
+  "license": "MIT",
+  "homepage": "https://github.com/uwu-user/Discord.js-Slash-Commands#readme",
+  "dependencies": {
+    "request": "^2.88.2",
+    "fs": "^0.0.2",
+    "discord.js": "^13.0.1",
+    "express": "^4.17.1",
+    "npm": "^7.20.3",
+    "node": "^16.6.1",
+    "os": "^0.1.2",
+    "ascii-table": "^0.0.9"
+  }
+}
