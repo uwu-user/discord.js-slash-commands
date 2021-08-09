@@ -20,7 +20,7 @@ client.login(TOKEN).catch(function(error) {
 // Delete commands (automatic) :)
 //-------------------------------------------------------------
 
-// It works without problems. delete /* */ if you want to delete all commands from your server and Global...
+// It works without problems. delete /* and */ if you want to delete all commands from your server and Global...
 
 /*
 client.on("ready", async () => {
@@ -140,7 +140,7 @@ client.on("interactionCreate", async interaction => {
       cmd => cmd.name.toLowerCase() === interaction.commandName.toLowerCase()
     );
     if (file) file.execute(client, interaction, interaction.options);
-    //                                   client  interaction    args
+    //                     client  interaction  args
   } catch (error) {
     interaction.reply({ content: error.message, ephemeral: true });
   }
