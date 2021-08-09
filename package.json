@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uwu-user/Discord.js-Slash-Commands.git"
+    "url": "git+https://github.com/uwu-user/discord.js-slash-commands.git"
   },
   "author": "uwu-user",
   "license": "MIT",
-  "homepage": "https://github.com/uwu-user/Discord.js-Slash-Commands#readme",
+  "homepage": "https://github.com/uwu-user/discord.js-slash-commands#readme",
   "dependencies": {
     "request": "^2.88.2",
     "fs": "^0.0.2",
