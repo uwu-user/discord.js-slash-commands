@@ -1,5 +1,6 @@
 v1.0 (2021/8/10)
 
+- [v2.0](https://github.com/uwu-user/discord.js-slash-commands-v2) :3?
 ---
 
 **Hi (ᴗ ω ᴗ)**
