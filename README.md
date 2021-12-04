@@ -1,7 +1,14 @@
-v1.0 (2021/8/10)
+
+
+| ⚠        | This is an old version because there is a newer version available (v2.0) just click on the blue writing :3    |
+|---------------|:------------------------|
+
 
 - [v2.0](https://github.com/uwu-user/discord.js-slash-commands-v2) :3?
+
 ---
+
+v1.0 (2021/8/10)
 
 **Hi (ᴗ ω ᴗ)**
 
