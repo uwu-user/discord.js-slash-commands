@@ -77,12 +77,25 @@ npm install discord.js
 ```
 
 ```sh-session
+npm install fs
+```
+
+```sh-session
 npm install os
 ```
 
 ```sh-session
 npm install ascii-table
 ```
+
+```sh-session
+npm install express
+```
+
+```sh-session
+npm install @discordjs/rest
+```
+
 </div>
 </details>
 
