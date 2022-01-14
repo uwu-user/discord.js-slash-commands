@@ -17,7 +17,7 @@ This is just an experiment for "slash commands" + "@discordjs/rest" in a simple 
 
 --- 
 
-<img src= "url" alt="Screenshot">
+<img src= "https://raw.githubusercontent.com/uwu-user/discord.js-slash-commands/main/assets/Screenshot.png" alt="Screenshot">
 
 </div>
 </details>
