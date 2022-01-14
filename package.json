@@ -1,11 +1,11 @@
 {
   "name": "discord.js-slash-Commands",
-  "version": "1.0.0-dev",
+  "version": "3.0.0",
   "description": "Sample Slash Commands!",
   "main": "index.js",
   "engines": {
-    "node": "v16.6.1",
-    "npm": "7.20.3"
+    "node": "v16.x",
+    "npm": "8.3.0"
   },
   "scripts": {
     "start": "node index.js"
@@ -20,11 +20,10 @@
   "dependencies": {
     "request": "^2.88.2",
     "fs": "^0.0.2",
-    "discord.js": "^13.0.1",
-    "express": "^4.17.1",
-    "npm": "^7.20.3",
-    "node": "^16.6.1",
     "os": "^0.1.2",
+    "discord.js": "^13.5.1",
+    "express": "^4.17.2",
+    "@discordjs/rest": "^0.2.0-canary.0",
     "ascii-table": "^0.0.9"
   }
 }
