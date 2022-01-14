@@ -4,7 +4,6 @@ module.exports = {
   async execute(interaction) {
     if (!interaction.isCommand()) return;
     if (!interaction.inGuild()) return;
-    if (interaction.deferred) return;
     if (!interaction.client.commands.has(interaction.commandName)) return;
     try {
       const { commandName } = interaction;
