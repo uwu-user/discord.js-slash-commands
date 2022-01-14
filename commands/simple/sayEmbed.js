@@ -1,7 +1,8 @@
 const { SlashCommandBuilder } = require("@discordjs/builders");
+const { MessageEmbed } = require("discord.js");
 const data = new SlashCommandBuilder()
-  .setName("say")
-  .setDescription("say cmd :3")
+  .setName("sayembed")
+  .setDescription("say Embed cmd :3")
   .addStringOption(option =>
     option
       .setName("text")
@@ -14,6 +15,7 @@ module.exports = {
   data: data,
   async execute(client, interaction) {
     let msg = interaction.options._hoistedOptions[0].value;
-    await interaction.reply({ content: msg, ephemeral: true });
+    let Embed = new MessageEmbed().setDescription(msg);
+    await interaction.reply({ embeds: [Embed], ephemeral: true });
   }
 };
