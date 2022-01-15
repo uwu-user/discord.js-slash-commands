@@ -4,7 +4,7 @@ v3.0 (2022/1/14)
 
 **Hi (ᴗ ω ᴗ)**
 
-This is just an experiment for "slash commands" + "@discordjs/rest" in a simple way :3
+This is just an experiment for "slash commands" + "@discordjs/rest" + "@discordjs/builders" in a simple way :3
 
 --- 
 
