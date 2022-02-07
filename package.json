@@ -4,8 +4,8 @@
   "description": "Sample Slash Commands!",
   "main": "index.js",
   "engines": {
-    "node": "v16.x",
-    "npm": "8.3.1"
+    "node": "v17.x",
+    "npm": "8.4.0"
   },
   "scripts": {
     "start": "node index.js"
