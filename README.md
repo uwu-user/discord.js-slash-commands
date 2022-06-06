@@ -1,4 +1,4 @@
-v3.0 (2022/1/14)
+v3.0.1 (2022/6/6) | (updated)
 
 ---
 
@@ -17,7 +17,7 @@ This is just an experiment for "slash commands" ( "@discordjs/rest" + "@discordj
 
 --- 
 
-<img src= "https://raw.githubusercontent.com/uwu-user/discord.js-slash-commands/main/assets/Screenshot.png" alt="Screenshot">
+<img src= "https://raw.githubusercontent.com/uwu-user/discord.js-slash-commands/main/assets/Screenshotv18.png" alt="Screenshot">
 
 </div>
 </details>
