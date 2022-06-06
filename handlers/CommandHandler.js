@@ -7,8 +7,8 @@ const fs = require("fs");
 
 module.exports = async function loadCommands(client) {
   const { REST } = require("@discordjs/rest");
-  const { Routes } = require("discord-api-types/v9");
-  const rest = new REST({ version: "9" }).setToken(TOKEN);
+  const { Routes } = require("discord-api-types/v10");
+  const rest = new REST({ version: "10" }).setToken(TOKEN);
 
   const ascii = require("ascii-table");
   const table = new ascii("CommandHandler.js");
