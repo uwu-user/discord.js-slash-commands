@@ -1,8 +1,24 @@
 const { Serverid, TOKEN } = require("./info.js");
 
-const { Discord, Client, Intents, Collection } = require("discord.js");
+const { Client, Intents, GatewayIntentBits, Partials, Collection } = require("discord.js");
 const client = new Client({
   intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
+  /*intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.GuildPresences,
+    GatewayIntentBits.GuildMessageReactions,
+    GatewayIntentBits.DirectMessages,
+    GatewayIntentBits.MessageContent,
+  ],
+  partials: [
+    Partials.Channel,
+    Partials.Message,
+    Partials.User,
+    Partials.GuildMember,
+    Partials.GuildPresences,
+  ],*/
+  // ws: { properties: { $browser: "Discord ios" }},
 });
 
 const fs = require("fs");
